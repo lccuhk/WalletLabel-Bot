@@ -1,5 +1,20 @@
 # 🎯 WalletLabel Bot - 钱包地址标签查询机器人
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/lccuhk/WalletLabel-Bot?style=for-the-badge&color=00D9FF" />
+  <img src="https://img.shields.io/github/forks/lccuhk/WalletLabel-Bot?style=for-the-badge&color=00FF88" />
+  <img src="https://img.shields.io/github/issues/lccuhk/WalletLabel-Bot?style=for-the-badge&color=FF6B6B" />
+  <img src="https://img.shields.io/github/license/lccuhk/WalletLabel-Bot?style=for-the-badge&color=FFD93D" />
+  <img src="https://img.shields.io/github/last-commit/lccuhk/WalletLabel-Bot?style=for-the-badge&color=9B59B6" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Crypto-💰-FFD700?style=for-the-badge" />
+</p>
+
 一个轻运营、零成本的 Telegram 机器人，帮助用户查询加密货币钱包地址的标签、持仓分析和风险评级。
 
 ## ✨ 核心功能
