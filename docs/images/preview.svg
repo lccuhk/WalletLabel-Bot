@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="telegramBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#26A5E4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0088cc;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#bgGradient)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="60" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="40" y="38" fill="#26A5E4" font-family="monospace" font-size="20" font-weight="bold">🎯 WalletLabel Bot</text>
+  <text x="280" y="38" fill="#94a3b8" font-family="monospace" font-size="14">加密货币钱包地址标签查询机器人</text>
+  
+  <!-- Telegram Chat Interface -->
+  <rect x="20" y="80" width="500" height="620" fill="#1e293b" rx="15" ry="15" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Chat Header -->
+  <rect x="20" y="80" width="500" height="70" fill="#172033" rx="15" ry="15"/>
+  <circle cx="60" cy="115" r="25" fill="#26A5E4"/>
+  <text x="60" y="122" fill="#fff" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">🤖</text>
+  <text x="100" y="110" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">WalletLabel Bot</text>
+  <text x="100" y="130" fill="#10b981" font-family="Arial, sans-serif" font-size="12">● 在线</text>
+  
+  <!-- Chat Messages -->
+  <!-- Bot Welcome -->
+  <g transform="translate(40, 170)">
+    <rect width="380" height="80" fill="#172033" rx="15" ry="15"/>
+    <text x="15" y="30" fill="#94a3b8" font-family="monospace" font-size="10">WalletLabel Bot · 10:30</text>
+    <text x="15" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14">👋 欢迎使用 WalletLabel Bot！</text>
+    <text x="15" y="75" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">发送钱包地址查询标签和风险评级</text>
+  </g>
+  
+  <!-- User Input -->
+  <g transform="translate(280, 270)">
+    <rect width="220" height="40" fill="#26A5E4" rx="15" ry="15"/>
+    <text x="110" y="25" fill="#fff" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">/check 0x71660c4005ba...</text>
+  </g>
+  
+  <!-- Bot Response - Address Label -->
+  <g transform="translate(40, 330)">
+    <rect width="420" height="180" fill="#172033" rx="15" ry="15"/>
+    <text x="15" y="30" fill="#94a3b8" font-family="monospace" font-size="10">WalletLabel Bot · 10:31</text>
+    
+    <text x="15" y="60" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🏷️ 地址标签</text>
+    <rect x="15" y="70" width="120" height="30" fill="#1e3a5f" rx="5" ry="5"/>
+    <text x="75" y="90" fill="#3b82f6" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">🏦 Binance</text>
+    <rect x="145" y="70" width="100" height="30" fill="#064e3b" rx="5" ry="5"/>
+    <text x="195" y="90" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">📈 交易所</text>
+    
+    <text x="15" y="125" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⚠️ 风险评级</text>
+    <rect x="15" y="135" width="150" height="30" fill="#064e3b" rx="5" ry="5" stroke="#10b981" stroke-width="1"/>
+    <text x="90" y="155" fill="#10b981" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">🟢 低风险 (92/100)</text>
+  </g>
+  
+  <!-- User Input 2 -->
+  <g transform="translate(260, 530)">
+    <rect width="240" height="40" fill="#26A5E4" rx="15" ry="15"/>
+    <text x="120" y="25" fill="#fff" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">/analyze 0x71660c4005ba...</text>
+  </g>
+  
+  <!-- Bot Response - Analysis -->
+  <g transform="translate(40, 590)">
+    <rect width="440" height="90" fill="#172033" rx="15" ry="15"/>
+    <text x="15" y="30" fill="#94a3b8" font-family="monospace" font-size="10">WalletLabel Bot · 10:32</text>
+    <text x="15" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📊 持仓分析</text>
+    <text x="15" y="78" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">总资产: $2.4M | 交易次数: 1,234 | 活跃天数: 456</text>
+  </g>
+  
+  <!-- Input Box -->
+  <rect x="40" y="700" width="460" height="45" fill="#172033" rx="22" ry="22"/>
+  <text x="60" y="728" fill="#64748b" font-family="Arial, sans-serif" font-size="12">输入命令或钱包地址...</text>
+  <circle cx="470" cy="722" r="15" fill="#26A5E4"/>
+  <text x="470" y="728" fill="#fff" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">➤</text>
+  
+  <!-- Quick Commands -->
+  <g transform="translate(40, 755)">
+    <rect width="80" height="25" fill="#172033" rx="12" ry="12"/>
+    <text x="40" y="17" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">/check</text>
+  </g>
+  <g transform="translate(130, 755)">
+    <rect width="90" height="25" fill="#172033" rx="12" ry="12"/>
+    <text x="45" y="17" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">/analyze</text>
+  </g>
+  <g transform="translate(230, 755)">
+    <rect width="80" height="25" fill="#172033" rx="12" ry="12"/>
+    <text x="40" y="17" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">/risk</text>
+  </g>
+  <g transform="translate(320, 755)">
+    <rect width="90" height="25" fill="#172033" rx="12" ry="12"/>
+    <text x="45" y="17" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">/subscribe</text>
+  </g>
+  
+  <!-- Right Panel: Features -->
+  <rect x="540" y="80" width="640" height="280" fill="#1e293b" rx="10" ry="10" stroke="#334155" stroke-width="1"/>
+  <text x="560" y="115" fill="#26A5E4" font-family="Arial, sans-serif" font-size="18" font-weight="bold">✨ 核心功能</text>
+  
+  <!-- Feature Cards -->
+  <g transform="translate(560, 135)">
+    <rect width="180" height="100" fill="#0f172a" rx="8" ry="8" stroke="#26A5E4" stroke-width="1"/>
+    <text x="90" y="35" fill="#26A5E4" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">🏷️</text>
+    <text x="90" y="65" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">地址标签</text>
+    <text x="90" y="85" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">识别交易所、大户、黑客</text>
+  </g>
+  
+  <g transform="translate(760, 135)">
+    <rect width="180" height="100" fill="#0f172a" rx="8" ry="8" stroke="#10b981" stroke-width="1"/>
+    <text x="90" y="35" fill="#10b981" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">📊</text>
+    <text x="90" y="65" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">持仓分析</text>
+    <text x="90" y="85" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">持仓分布、盈亏统计</text>
+  </g>
+  
+  <g transform="translate(960, 135)">
+    <rect width="180" height="100" fill="#0f172a" rx="8" ry="8" stroke="#f59e0b" stroke-width="1"/>
+    <text x="90" y="35" fill="#f59e0b" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">⚠️</text>
+    <text x="90" y="65" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">风险评级</text>
+    <text x="90" y="85" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">智能评估风险等级</text>
+  </g>
+  
+  <g transform="translate(560, 250)">
+    <rect width="180" height="90" fill="#0f172a" rx="8" ry="8" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="90" y="30" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">🔄</text>
+    <text x="90" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">交易历史</text>
+    <text x="90" y="75" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">交易频率、偏好币种</text>
+  </g>
+  
+  <g transform="translate(760, 250)">
+    <rect width="180" height="90" fill="#0f172a" rx="8" ry="8" stroke="#ef4444" stroke-width="1"/>
+    <text x="90" y="30" fill="#ef4444" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">🔍</text>
+    <text x="90" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">批量查询</text>
+    <text x="90" y="75" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">一次查询多个地址</text>
+  </g>
+  
+  <g transform="translate(960, 250)">
+    <rect width="180" height="90" fill="#0f172a" rx="8" ry="8" stroke="#f59e0b" stroke-width="1"/>
+    <text x="90" y="30" fill="#f59e0b" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">👥</text>
+    <text x="90" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">会员系统</text>
+    <text x="90" y="75" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">免费/付费分层运营</text>
+  </g>
+  
+  <!-- Risk Rating Scale -->
+  <rect x="540" y="380" width="640" height="150" fill="#1e293b" rx="10" ry="10" stroke="#334155" stroke-width="1"/>
+  <text x="560" y="415" fill="#f59e0b" font-family="Arial, sans-serif" font-size="18" font-weight="bold">📊 风险评级体系</text>
+  
+  <g transform="translate(560, 435)">
+    <rect width="130" height="80" fill="#064e3b" rx="8" ry="8" stroke="#10b981" stroke-width="2"/>
+    <text x="65" y="30" fill="#10b981" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">🟢</text>
+    <text x="65" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">低风险</text>
+    <text x="65" y="72" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">90-100 分</text>
+  </g>
+  
+  <g transform="translate(700, 435)">
+    <rect width="130" height="80" fill="#713f12" rx="8" ry="8" stroke="#fbbf24" stroke-width="2"/>
+    <text x="65" y="30" fill="#fbbf24" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">🟡</text>
+    <text x="65" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">中风险</text>
+    <text x="65" y="72" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">60-89 分</text>
+  </g>
+  
+  <g transform="translate(840, 435)">
+    <rect width="130" height="80" fill="#7c2d12" rx="8" ry="8" stroke="#f97316" stroke-width="2"/>
+    <text x="65" y="30" fill="#f97316" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">🟠</text>
+    <text x="65" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">较高风险</text>
+    <text x="65" y="72" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">30-59 分</text>
+  </g>
+  
+  <g transform="translate(980, 435)">
+    <rect width="130" height="80" fill="#450a0a" rx="8" ry="8" stroke="#ef4444" stroke-width="2"/>
+    <text x="65" y="30" fill="#ef4444" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">🔴</text>
+    <text x="65" y="55" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">高风险</text>
+    <text x="65" y="72" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">0-29 分</text>
+  </g>
+  
+  <!-- Pricing -->
+  <rect x="540" y="550" width="640" height="150" fill="#1e293b" rx="10" ry="10" stroke="#334155" stroke-width="1"/>
+  <text x="560" y="585" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="18" font-weight="bold">💰 会员套餐</text>
+  
+  <g transform="translate(560, 605)">
+    <rect width="140" height="75" fill="#0f172a" rx="8" ry="8" stroke="#64748b" stroke-width="1"/>
+    <text x="70" y="25" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">免费版</text>
+    <text x="70" y="50" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">¥0</text>
+    <text x="70" y="68" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">3次/天查询</text>
+  </g>
+  
+  <g transform="translate(710, 605)">
+    <rect width="140" height="75" fill="#1e3a5f" rx="8" ry="8" stroke="#3b82f6" stroke-width="2"/>
+    <text x="70" y="25" fill="#3b82f6" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">月卡</text>
+    <text x="70" y="50" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">¥19.9</text>
+    <text x="70" y="68" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">无限查询</text>
+  </g>
+  
+  <g transform="translate(860, 605)">
+    <rect width="140" height="75" fill="#451a03" rx="8" ry="8" stroke="#f59e0b" stroke-width="2"/>
+    <text x="70" y="25" fill="#f59e0b" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">年卡</text>
+    <text x="70" y="50" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">¥199</text>
+    <text x="70" y="68" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">批量查询</text>
+  </g>
+  
+  <g transform="translate(1010, 605)">
+    <rect width="140" height="75" fill="#581c87" rx="8" ry="8" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="70" y="25" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">专业版</text>
+    <text x="70" y="50" fill="#fff" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">¥99/月</text>
+    <text x="70" y="68" fill="#94a3b8" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">API 接口</text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="0" y="720" width="1200" height="80" fill="#0f172a"/>
+  <text x="40" y="755" fill="#26A5E4" font-family="Arial, sans-serif" font-size="14">🔗 免费数据源: Etherscan · BscScan · Polygonscan · Arkham · Dedaub</text>
+  <text x="40" y="780" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">⚡ 轻运营 · 零成本 · 每周仅需 1.5 小时维护</text>
+  <text x="800" y="755" fill="#10b981" font-family="Arial, sans-serif" font-size="14">📈 盈利预估: 50付费用户 → ¥1,000-5,000/月</text>
+  <text x="800" y="780" fill="#f59e0b" font-family="Arial, sans-serif" font-size="14">🚀 500付费用户 → ¥10,000-50,000/月</text>
+</svg>

@@ -17,6 +17,12 @@
 
 一个轻运营、零成本的 Telegram 机器人，帮助用户查询加密货币钱包地址的标签、持仓分析和风险评级。
 
+## 🖼️ 项目预览
+
+<p align="center">
+  <img src="docs/images/preview.svg" alt="WalletLabel Bot Preview" width="100%" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);" />
+</p>
+
 ## ✨ 核心功能
 
 - 🏷️ **地址标签查询** - 识别交易所、大户、黑客、合约等地址
