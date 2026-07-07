@@ -2,7 +2,7 @@ python-telegram-bot==20.7
 python-telegram-bot[job-queue]==20.7
 requests==2.31.0
 SQLAlchemy==2.0.23
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 pydantic==2.5.2
 pydantic-settings==2.1.0
 loguru==0.7.2
