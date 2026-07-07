@@ -1,0 +1,80 @@
+# 自动检测文本文件并规范化行结束符
+* text=auto eol=lf
+
+# 明确指定文本文件
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.conf text eol=lf
+
+# Python 文件
+*.py text eol=lf diff=python
+*.pyi text eol=lf
+
+#  shell 脚本
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# Windows 批处理
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 图片文件 - 二进制
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+*.webp binary
+*.bmp binary
+
+# 字体文件 - 二进制
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.otf binary
+
+# 音频视频文件 - 二进制
+*.mp3 binary
+*.mp4 binary
+*.wav binary
+*.ogg binary
+*.webm binary
+
+# 压缩文件 - 二进制
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+*.7z binary
+
+# 文档文件 - 二进制
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# GitHub 文件
+*.github/CODEOWNERS text
+*.github/ISSUE_TEMPLATE/* text
+*.github/PULL_REQUEST_TEMPLATE/* text
+
+# 语言统计
+*.py linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
