@@ -15,6 +15,12 @@
   <img src="https://img.shields.io/badge/Crypto-💰-FFD700?style=for-the-badge" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/lccuhk/wallet-label-bot">
+    <img src="https://img.shields.io/badge/📂_查看源码-GitHub-00D9FF?style=for-the-badge" />
+  </a>
+</p>
+
 一个轻运营、零成本的 Telegram 机器人，帮助用户查询加密货币钱包地址的标签、持仓分析和风险评级。
 
 ## 🖼️ 项目预览
