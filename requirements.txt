@@ -1,5 +1,5 @@
-python-telegram-bot==20.7
-python-telegram-bot[job-queue]==20.7
+python-telegram-bot==20.8
+python-telegram-bot[job-queue]==20.8
 requests==2.31.0
 SQLAlchemy==2.0.23
 python-dotenv==1.0.0
