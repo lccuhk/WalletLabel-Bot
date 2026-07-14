@@ -1,11 +1,11 @@
 # 🎯 WalletLabel Bot - 钱包地址标签查询机器人
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/lccuhk/WalletLabel-Bot?style=for-the-badge&color=00D9FF" />
-  <img src="https://img.shields.io/github/forks/lccuhk/WalletLabel-Bot?style=for-the-badge&color=00FF88" />
-  <img src="https://img.shields.io/github/issues/lccuhk/WalletLabel-Bot?style=for-the-badge&color=FF6B6B" />
-  <img src="https://img.shields.io/github/license/lccuhk/WalletLabel-Bot?style=for-the-badge&color=FFD93D" />
-  <img src="https://img.shields.io/github/last-commit/lccuhk/WalletLabel-Bot?style=for-the-badge&color=9B59B6" />
+  <img src="https://img.shields.io/github/stars/lccuhk/wallet-label-bot?style=for-the-badge&color=00D9FF" />
+  <img src="https://img.shields.io/github/forks/lccuhk/wallet-label-bot?style=for-the-badge&color=00FF88" />
+  <img src="https://img.shields.io/github/issues/lccuhk/wallet-label-bot?style=for-the-badge&color=FF6B6B" />
+  <img src="https://img.shields.io/github/license/lccuhk/wallet-label-bot?style=for-the-badge&color=FFD93D" />
+  <img src="https://img.shields.io/github/last-commit/lccuhk/wallet-label-bot?style=for-the-badge&color=9B59B6" />
 </p>
 
 <p align="center">
